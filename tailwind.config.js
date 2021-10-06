@@ -7,6 +7,11 @@ module.exports = {
       /*fontFamily: {
         'JosefinSans': ['JosefinSans', 'sans-serif']
       },*/
+      colors: {
+        blue: {
+          900: "#212353"
+        }
+      }
     },
   },
   variants: {
