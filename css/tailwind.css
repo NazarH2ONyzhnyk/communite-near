@@ -8,4 +8,8 @@
     body {
         font-family: 'Montserrat', sans-serif;
     }
+    .page-bg {
+        background: url("../img/dashboard-bg-gradient.png") no-repeat center; 
+        background-size: cover;
+    }
 }
