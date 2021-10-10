@@ -9680,6 +9680,56 @@ body {
   --tw-scale-y: 1.5;
 }
 
+.active\:scale-0:active{
+  --tw-scale-x: 0;
+  --tw-scale-y: 0;
+}
+
+.active\:scale-50:active{
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+}
+
+.active\:scale-75:active{
+  --tw-scale-x: .75;
+  --tw-scale-y: .75;
+}
+
+.active\:scale-90:active{
+  --tw-scale-x: .9;
+  --tw-scale-y: .9;
+}
+
+.active\:scale-95:active{
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+}
+
+.active\:scale-100:active{
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+
+.active\:scale-105:active{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+.active\:scale-110:active{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+}
+
+.active\:scale-125:active{
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+}
+
+.active\:scale-150:active{
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+}
+
 .scale-x-0{
   --tw-scale-x: 0;
 }
@@ -9917,6 +9967,86 @@ body {
 }
 
 .focus\:scale-y-150:focus{
+  --tw-scale-y: 1.5;
+}
+
+.active\:scale-x-0:active{
+  --tw-scale-x: 0;
+}
+
+.active\:scale-x-50:active{
+  --tw-scale-x: .5;
+}
+
+.active\:scale-x-75:active{
+  --tw-scale-x: .75;
+}
+
+.active\:scale-x-90:active{
+  --tw-scale-x: .9;
+}
+
+.active\:scale-x-95:active{
+  --tw-scale-x: .95;
+}
+
+.active\:scale-x-100:active{
+  --tw-scale-x: 1;
+}
+
+.active\:scale-x-105:active{
+  --tw-scale-x: 1.05;
+}
+
+.active\:scale-x-110:active{
+  --tw-scale-x: 1.1;
+}
+
+.active\:scale-x-125:active{
+  --tw-scale-x: 1.25;
+}
+
+.active\:scale-x-150:active{
+  --tw-scale-x: 1.5;
+}
+
+.active\:scale-y-0:active{
+  --tw-scale-y: 0;
+}
+
+.active\:scale-y-50:active{
+  --tw-scale-y: .5;
+}
+
+.active\:scale-y-75:active{
+  --tw-scale-y: .75;
+}
+
+.active\:scale-y-90:active{
+  --tw-scale-y: .9;
+}
+
+.active\:scale-y-95:active{
+  --tw-scale-y: .95;
+}
+
+.active\:scale-y-100:active{
+  --tw-scale-y: 1;
+}
+
+.active\:scale-y-105:active{
+  --tw-scale-y: 1.05;
+}
+
+.active\:scale-y-110:active{
+  --tw-scale-y: 1.1;
+}
+
+.active\:scale-y-125:active{
+  --tw-scale-y: 1.25;
+}
+
+.active\:scale-y-150:active{
   --tw-scale-y: 1.5;
 }
 
@@ -40985,6 +41115,56 @@ body {
     --tw-scale-y: 1.5;
   }
 
+  .sm\:active\:scale-0:active{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .sm\:active\:scale-50:active{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .sm\:active\:scale-75:active{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .sm\:active\:scale-90:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .sm\:active\:scale-95:active{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .sm\:active\:scale-100:active{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .sm\:active\:scale-105:active{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .sm\:active\:scale-110:active{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .sm\:active\:scale-125:active{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .sm\:active\:scale-150:active{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
   .sm\:scale-x-0{
     --tw-scale-x: 0;
   }
@@ -41222,6 +41402,86 @@ body {
   }
 
   .sm\:focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  .sm\:active\:scale-x-0:active{
+    --tw-scale-x: 0;
+  }
+
+  .sm\:active\:scale-x-50:active{
+    --tw-scale-x: .5;
+  }
+
+  .sm\:active\:scale-x-75:active{
+    --tw-scale-x: .75;
+  }
+
+  .sm\:active\:scale-x-90:active{
+    --tw-scale-x: .9;
+  }
+
+  .sm\:active\:scale-x-95:active{
+    --tw-scale-x: .95;
+  }
+
+  .sm\:active\:scale-x-100:active{
+    --tw-scale-x: 1;
+  }
+
+  .sm\:active\:scale-x-105:active{
+    --tw-scale-x: 1.05;
+  }
+
+  .sm\:active\:scale-x-110:active{
+    --tw-scale-x: 1.1;
+  }
+
+  .sm\:active\:scale-x-125:active{
+    --tw-scale-x: 1.25;
+  }
+
+  .sm\:active\:scale-x-150:active{
+    --tw-scale-x: 1.5;
+  }
+
+  .sm\:active\:scale-y-0:active{
+    --tw-scale-y: 0;
+  }
+
+  .sm\:active\:scale-y-50:active{
+    --tw-scale-y: .5;
+  }
+
+  .sm\:active\:scale-y-75:active{
+    --tw-scale-y: .75;
+  }
+
+  .sm\:active\:scale-y-90:active{
+    --tw-scale-y: .9;
+  }
+
+  .sm\:active\:scale-y-95:active{
+    --tw-scale-y: .95;
+  }
+
+  .sm\:active\:scale-y-100:active{
+    --tw-scale-y: 1;
+  }
+
+  .sm\:active\:scale-y-105:active{
+    --tw-scale-y: 1.05;
+  }
+
+  .sm\:active\:scale-y-110:active{
+    --tw-scale-y: 1.1;
+  }
+
+  .sm\:active\:scale-y-125:active{
+    --tw-scale-y: 1.25;
+  }
+
+  .sm\:active\:scale-y-150:active{
     --tw-scale-y: 1.5;
   }
 
@@ -72212,6 +72472,56 @@ body {
     --tw-scale-y: 1.5;
   }
 
+  .md\:active\:scale-0:active{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .md\:active\:scale-50:active{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .md\:active\:scale-75:active{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .md\:active\:scale-90:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .md\:active\:scale-95:active{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .md\:active\:scale-100:active{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .md\:active\:scale-105:active{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .md\:active\:scale-110:active{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .md\:active\:scale-125:active{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .md\:active\:scale-150:active{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
   .md\:scale-x-0{
     --tw-scale-x: 0;
   }
@@ -72449,6 +72759,86 @@ body {
   }
 
   .md\:focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  .md\:active\:scale-x-0:active{
+    --tw-scale-x: 0;
+  }
+
+  .md\:active\:scale-x-50:active{
+    --tw-scale-x: .5;
+  }
+
+  .md\:active\:scale-x-75:active{
+    --tw-scale-x: .75;
+  }
+
+  .md\:active\:scale-x-90:active{
+    --tw-scale-x: .9;
+  }
+
+  .md\:active\:scale-x-95:active{
+    --tw-scale-x: .95;
+  }
+
+  .md\:active\:scale-x-100:active{
+    --tw-scale-x: 1;
+  }
+
+  .md\:active\:scale-x-105:active{
+    --tw-scale-x: 1.05;
+  }
+
+  .md\:active\:scale-x-110:active{
+    --tw-scale-x: 1.1;
+  }
+
+  .md\:active\:scale-x-125:active{
+    --tw-scale-x: 1.25;
+  }
+
+  .md\:active\:scale-x-150:active{
+    --tw-scale-x: 1.5;
+  }
+
+  .md\:active\:scale-y-0:active{
+    --tw-scale-y: 0;
+  }
+
+  .md\:active\:scale-y-50:active{
+    --tw-scale-y: .5;
+  }
+
+  .md\:active\:scale-y-75:active{
+    --tw-scale-y: .75;
+  }
+
+  .md\:active\:scale-y-90:active{
+    --tw-scale-y: .9;
+  }
+
+  .md\:active\:scale-y-95:active{
+    --tw-scale-y: .95;
+  }
+
+  .md\:active\:scale-y-100:active{
+    --tw-scale-y: 1;
+  }
+
+  .md\:active\:scale-y-105:active{
+    --tw-scale-y: 1.05;
+  }
+
+  .md\:active\:scale-y-110:active{
+    --tw-scale-y: 1.1;
+  }
+
+  .md\:active\:scale-y-125:active{
+    --tw-scale-y: 1.25;
+  }
+
+  .md\:active\:scale-y-150:active{
     --tw-scale-y: 1.5;
   }
 
@@ -103439,6 +103829,56 @@ body {
     --tw-scale-y: 1.5;
   }
 
+  .lg\:active\:scale-0:active{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .lg\:active\:scale-50:active{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .lg\:active\:scale-75:active{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .lg\:active\:scale-90:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .lg\:active\:scale-95:active{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .lg\:active\:scale-100:active{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .lg\:active\:scale-105:active{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .lg\:active\:scale-110:active{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .lg\:active\:scale-125:active{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .lg\:active\:scale-150:active{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
   .lg\:scale-x-0{
     --tw-scale-x: 0;
   }
@@ -103676,6 +104116,86 @@ body {
   }
 
   .lg\:focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  .lg\:active\:scale-x-0:active{
+    --tw-scale-x: 0;
+  }
+
+  .lg\:active\:scale-x-50:active{
+    --tw-scale-x: .5;
+  }
+
+  .lg\:active\:scale-x-75:active{
+    --tw-scale-x: .75;
+  }
+
+  .lg\:active\:scale-x-90:active{
+    --tw-scale-x: .9;
+  }
+
+  .lg\:active\:scale-x-95:active{
+    --tw-scale-x: .95;
+  }
+
+  .lg\:active\:scale-x-100:active{
+    --tw-scale-x: 1;
+  }
+
+  .lg\:active\:scale-x-105:active{
+    --tw-scale-x: 1.05;
+  }
+
+  .lg\:active\:scale-x-110:active{
+    --tw-scale-x: 1.1;
+  }
+
+  .lg\:active\:scale-x-125:active{
+    --tw-scale-x: 1.25;
+  }
+
+  .lg\:active\:scale-x-150:active{
+    --tw-scale-x: 1.5;
+  }
+
+  .lg\:active\:scale-y-0:active{
+    --tw-scale-y: 0;
+  }
+
+  .lg\:active\:scale-y-50:active{
+    --tw-scale-y: .5;
+  }
+
+  .lg\:active\:scale-y-75:active{
+    --tw-scale-y: .75;
+  }
+
+  .lg\:active\:scale-y-90:active{
+    --tw-scale-y: .9;
+  }
+
+  .lg\:active\:scale-y-95:active{
+    --tw-scale-y: .95;
+  }
+
+  .lg\:active\:scale-y-100:active{
+    --tw-scale-y: 1;
+  }
+
+  .lg\:active\:scale-y-105:active{
+    --tw-scale-y: 1.05;
+  }
+
+  .lg\:active\:scale-y-110:active{
+    --tw-scale-y: 1.1;
+  }
+
+  .lg\:active\:scale-y-125:active{
+    --tw-scale-y: 1.25;
+  }
+
+  .lg\:active\:scale-y-150:active{
     --tw-scale-y: 1.5;
   }
 
@@ -134666,6 +135186,56 @@ body {
     --tw-scale-y: 1.5;
   }
 
+  .xl\:active\:scale-0:active{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .xl\:active\:scale-50:active{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .xl\:active\:scale-75:active{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .xl\:active\:scale-90:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .xl\:active\:scale-95:active{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .xl\:active\:scale-100:active{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .xl\:active\:scale-105:active{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .xl\:active\:scale-110:active{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .xl\:active\:scale-125:active{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .xl\:active\:scale-150:active{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
   .xl\:scale-x-0{
     --tw-scale-x: 0;
   }
@@ -134903,6 +135473,86 @@ body {
   }
 
   .xl\:focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  .xl\:active\:scale-x-0:active{
+    --tw-scale-x: 0;
+  }
+
+  .xl\:active\:scale-x-50:active{
+    --tw-scale-x: .5;
+  }
+
+  .xl\:active\:scale-x-75:active{
+    --tw-scale-x: .75;
+  }
+
+  .xl\:active\:scale-x-90:active{
+    --tw-scale-x: .9;
+  }
+
+  .xl\:active\:scale-x-95:active{
+    --tw-scale-x: .95;
+  }
+
+  .xl\:active\:scale-x-100:active{
+    --tw-scale-x: 1;
+  }
+
+  .xl\:active\:scale-x-105:active{
+    --tw-scale-x: 1.05;
+  }
+
+  .xl\:active\:scale-x-110:active{
+    --tw-scale-x: 1.1;
+  }
+
+  .xl\:active\:scale-x-125:active{
+    --tw-scale-x: 1.25;
+  }
+
+  .xl\:active\:scale-x-150:active{
+    --tw-scale-x: 1.5;
+  }
+
+  .xl\:active\:scale-y-0:active{
+    --tw-scale-y: 0;
+  }
+
+  .xl\:active\:scale-y-50:active{
+    --tw-scale-y: .5;
+  }
+
+  .xl\:active\:scale-y-75:active{
+    --tw-scale-y: .75;
+  }
+
+  .xl\:active\:scale-y-90:active{
+    --tw-scale-y: .9;
+  }
+
+  .xl\:active\:scale-y-95:active{
+    --tw-scale-y: .95;
+  }
+
+  .xl\:active\:scale-y-100:active{
+    --tw-scale-y: 1;
+  }
+
+  .xl\:active\:scale-y-105:active{
+    --tw-scale-y: 1.05;
+  }
+
+  .xl\:active\:scale-y-110:active{
+    --tw-scale-y: 1.1;
+  }
+
+  .xl\:active\:scale-y-125:active{
+    --tw-scale-y: 1.25;
+  }
+
+  .xl\:active\:scale-y-150:active{
     --tw-scale-y: 1.5;
   }
 
@@ -165893,6 +166543,56 @@ body {
     --tw-scale-y: 1.5;
   }
 
+  .\32xl\:active\:scale-0:active{
+    --tw-scale-x: 0;
+    --tw-scale-y: 0;
+  }
+
+  .\32xl\:active\:scale-50:active{
+    --tw-scale-x: .5;
+    --tw-scale-y: .5;
+  }
+
+  .\32xl\:active\:scale-75:active{
+    --tw-scale-x: .75;
+    --tw-scale-y: .75;
+  }
+
+  .\32xl\:active\:scale-90:active{
+    --tw-scale-x: .9;
+    --tw-scale-y: .9;
+  }
+
+  .\32xl\:active\:scale-95:active{
+    --tw-scale-x: .95;
+    --tw-scale-y: .95;
+  }
+
+  .\32xl\:active\:scale-100:active{
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+  }
+
+  .\32xl\:active\:scale-105:active{
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+  }
+
+  .\32xl\:active\:scale-110:active{
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+  }
+
+  .\32xl\:active\:scale-125:active{
+    --tw-scale-x: 1.25;
+    --tw-scale-y: 1.25;
+  }
+
+  .\32xl\:active\:scale-150:active{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+  }
+
   .\32xl\:scale-x-0{
     --tw-scale-x: 0;
   }
@@ -166130,6 +166830,86 @@ body {
   }
 
   .\32xl\:focus\:scale-y-150:focus{
+    --tw-scale-y: 1.5;
+  }
+
+  .\32xl\:active\:scale-x-0:active{
+    --tw-scale-x: 0;
+  }
+
+  .\32xl\:active\:scale-x-50:active{
+    --tw-scale-x: .5;
+  }
+
+  .\32xl\:active\:scale-x-75:active{
+    --tw-scale-x: .75;
+  }
+
+  .\32xl\:active\:scale-x-90:active{
+    --tw-scale-x: .9;
+  }
+
+  .\32xl\:active\:scale-x-95:active{
+    --tw-scale-x: .95;
+  }
+
+  .\32xl\:active\:scale-x-100:active{
+    --tw-scale-x: 1;
+  }
+
+  .\32xl\:active\:scale-x-105:active{
+    --tw-scale-x: 1.05;
+  }
+
+  .\32xl\:active\:scale-x-110:active{
+    --tw-scale-x: 1.1;
+  }
+
+  .\32xl\:active\:scale-x-125:active{
+    --tw-scale-x: 1.25;
+  }
+
+  .\32xl\:active\:scale-x-150:active{
+    --tw-scale-x: 1.5;
+  }
+
+  .\32xl\:active\:scale-y-0:active{
+    --tw-scale-y: 0;
+  }
+
+  .\32xl\:active\:scale-y-50:active{
+    --tw-scale-y: .5;
+  }
+
+  .\32xl\:active\:scale-y-75:active{
+    --tw-scale-y: .75;
+  }
+
+  .\32xl\:active\:scale-y-90:active{
+    --tw-scale-y: .9;
+  }
+
+  .\32xl\:active\:scale-y-95:active{
+    --tw-scale-y: .95;
+  }
+
+  .\32xl\:active\:scale-y-100:active{
+    --tw-scale-y: 1;
+  }
+
+  .\32xl\:active\:scale-y-105:active{
+    --tw-scale-y: 1.05;
+  }
+
+  .\32xl\:active\:scale-y-110:active{
+    --tw-scale-y: 1.1;
+  }
+
+  .\32xl\:active\:scale-y-125:active{
+    --tw-scale-y: 1.25;
+  }
+
+  .\32xl\:active\:scale-y-150:active{
     --tw-scale-y: 1.5;
   }
 
