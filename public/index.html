@@ -10,7 +10,203 @@
     <!-- Fonts -->
 </head>
 <body class="bg-gray-50">
-    <header class="">
+
+    <!-- Popup button short -->
+    <div class="fixed z-50 bottom-16 right-60">
+        <button class="w-64 h-64 box-border border-8 pulsing-border flex items-center justify-center rounded-full bg-purple-500 border-purple-400 hover:bg-pink-500 hover:border-pink-400">
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                <path d="M18.1529 1.58732L13.6085 8.20587C13.2943 8.6566 13.8986 9.20222 14.3337 8.82266L18.8056 5.00335C18.9264 4.90846 19.0957 4.97963 19.0957 5.14568V17.0781C19.0957 17.2441 18.8781 17.3153 18.7814 17.1967L5.24485 1.30266C4.80975 0.780763 4.18127 0.496094 3.48027 0.496094H2.99682C1.73985 0.496094 0.700439 1.51616 0.700439 2.77344V19.5689C0.700439 20.8262 1.73985 21.8463 3.02099 21.8463C3.81868 21.8463 4.56803 21.443 5.00313 20.755L9.54755 14.1365C9.86179 13.6858 9.25748 13.1401 8.82237 13.5197L4.35048 17.3153C4.22961 17.4102 4.06041 17.339 4.06041 17.1729V5.2643C4.06041 5.09824 4.27796 5.02707 4.37465 5.14568L17.9112 21.0397C18.3463 21.5616 18.999 21.8463 19.6758 21.8463H20.1592C21.4404 21.8463 22.4798 20.8262 22.4798 19.5689V2.77344C22.4556 1.51616 21.4162 0.496094 20.1351 0.496094C19.3374 0.496094 18.588 0.899375 18.1529 1.58732Z" fill="white"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Popup form -->
+    <div class="fixed top-0 left-0 z-40 w-full h-screen flex items-center justify-center">
+        <div class="absolute w-full h-screen bg-gray-400 opacity-50 z-40"></div>
+        <div class="relative z-50 w-376 bg-white rounded-xl flex flex-col items-center px-5 py-8">
+
+            <!-- Close form -->
+            <button class="absolute right-4 top-4 text-black hover:text-purple-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M20.0303 5.03033C20.3232 4.73744 20.3232 4.26256 20.0303 3.96967C19.7374 3.67678 19.2626 3.67678 18.9697 3.96967L12 10.9393L5.03033 3.96967C4.73744 3.67678 4.26256 3.67678 3.96967 3.96967C3.67678 4.26256 3.67678 4.73744 3.96967 5.03033L10.9393 12L3.96967 18.9697C3.67678 19.2626 3.67678 19.7374 3.96967 20.0303C4.26256 20.3232 4.73744 20.3232 5.03033 20.0303L12 13.0607L18.9697 20.0303C19.2626 20.3232 19.7374 20.3232 20.0303 20.0303C20.3232 19.7374 20.3232 19.2626 20.0303 18.9697L13.0607 12L20.0303 5.03033Z" fill="currentColor"/>
+                </svg>
+            </button>
+            
+            <!-- NEAR Logo -->
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="153" height="40" viewBox="0 0 153 40" fill="none">
+                    <g clip-path="url(#clip0_12074_140)">
+                    <path d="M76.5914 8.3006V31.4804C76.5914 31.657 76.4583 31.8336 76.2363 31.8336H73.795C72.6853 31.8336 71.62 31.2597 70.9985 30.3325L59.9903 13.4222L60.3454 21.8553V31.5246C60.3454 31.7012 60.2122 31.8778 59.9903 31.8778H56.7943C56.6168 31.8778 56.4392 31.7453 56.4392 31.5246V8.3006C56.4392 8.124 56.5724 7.94739 56.7943 7.94739H59.1913C60.301 7.94739 61.3663 8.52136 61.9877 9.44856L72.996 26.3146L72.6409 17.8816V8.3006C72.6409 8.124 72.7741 7.94739 72.996 7.94739H76.1919C76.4583 7.94739 76.5914 8.07984 76.5914 8.3006Z" fill="black"/>
+                    <path d="M109.35 31.7895H105.976C105.754 31.7895 105.577 31.5687 105.666 31.348L114.632 8.25645C114.721 8.07984 114.898 7.94739 115.076 7.94739H119.337C119.559 7.94739 119.737 8.07984 119.781 8.25645L128.792 31.348C128.881 31.5687 128.703 31.7895 128.481 31.7895H125.108C124.975 31.7895 124.841 31.7012 124.797 31.5687L117.562 12.5834C117.473 12.3184 117.029 12.3184 116.94 12.5834L109.705 31.5687C109.616 31.7012 109.483 31.7895 109.35 31.7895Z" fill="black"/>
+                    <path d="M152.318 31.2597L145.571 22.6942C149.388 21.9877 151.607 19.4269 151.607 15.4974C151.607 10.9939 148.678 7.94739 143.44 7.94739H134.03C133.763 7.94739 133.541 8.16815 133.541 8.43306C133.541 10.1991 134.962 11.612 136.737 11.612H143.085C146.236 11.612 147.746 13.2015 147.746 15.5415C147.746 17.8816 146.281 19.4711 143.085 19.4711H134.118C133.852 19.4711 133.63 19.6918 133.63 19.9567V31.4363C133.63 31.6129 133.763 31.7895 133.985 31.7895H137.181C137.359 31.7895 137.536 31.657 137.536 31.4363V22.9149H141.221L147.08 30.5091C147.701 31.348 148.678 31.7895 149.743 31.7895H152.184C152.362 31.7895 152.495 31.4804 152.318 31.2597Z" fill="black"/>
+                    <path d="M99.2293 7.94739H84.3593C84.093 7.94739 83.9154 8.124 83.9154 8.38891C83.9154 10.155 85.3802 11.612 87.1557 11.612H99.2293C99.4069 11.612 99.5844 11.4796 99.5844 11.2588V8.25645C99.54 8.07984 99.4069 7.94739 99.2293 7.94739ZM99.2293 28.1249H88.1323C87.9547 28.1249 87.7772 27.9924 87.7772 27.7717V21.8111C87.7772 21.6345 87.9103 21.4579 88.1323 21.4579H98.3859C98.5635 21.4579 98.741 21.3255 98.741 21.1047V18.1024C98.741 17.9258 98.6079 17.7491 98.3859 17.7491H84.4037C84.1373 17.7491 83.9154 17.9699 83.9154 18.2348V31.2597C83.9154 31.5246 84.1373 31.7453 84.4037 31.7453H99.2293C99.4069 31.7453 99.5844 31.6129 99.5844 31.3921V28.3898C99.54 28.2573 99.4069 28.1249 99.2293 28.1249Z" fill="black"/>
+                    <path d="M32.6471 2.03099L24.3022 14.3494C23.7251 15.1883 24.8348 16.2038 25.6338 15.4974L33.8456 8.38889C34.0675 8.21228 34.3783 8.34474 34.3783 8.6538V30.8623C34.3783 31.1713 33.9788 31.3038 33.8012 31.083L8.94385 1.50117C8.14486 0.529825 6.99077 0 5.70351 0H4.81575C2.50757 0 0.598877 1.89854 0.598877 4.2386V35.4982C0.598877 37.8383 2.50757 39.7368 4.86014 39.7368C6.32495 39.7368 7.70098 38.9863 8.49997 37.7058L16.8449 25.3874C17.422 24.5485 16.3123 23.533 15.5133 24.2395L7.30149 31.3038C7.07955 31.4804 6.76883 31.348 6.76883 31.0389V8.87456C6.76883 8.5655 7.16832 8.43304 7.34588 8.6538L32.2032 38.2357C33.0022 39.207 34.2007 39.7368 35.4436 39.7368H36.3313C38.6839 39.7368 40.5926 37.8383 40.5926 35.4982V4.2386C40.5482 1.89854 38.6395 0 36.287 0C34.8221 0 33.4461 0.750585 32.6471 2.03099Z" fill="black"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_12074_140">
+                    <rect width="151.807" height="39.7368" fill="white" transform="translate(0.598877)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </div>
+
+            <!-- Title -->
+            <p class="mt-4 text-black text-2xl font-bold">Contract deploy</p>
+
+            <!-- Description -->
+            <p class="text-xs md:text-sm text-gray-500 text-center mt-1 font-bold">
+                Please make sure that you put in input field correct contract id and your contract is deployed correctly. 
+                This is <a href="#" class="text-purple-500 hover:text-purple-400">contract source code</a> with setup instructions. <br>
+                <span class="text-black mt-1">If your input is not valid, your will see error message with description of error</span>
+            </p>
+
+            <!-- Current ID -->
+            <div class="text-xs md:text-sm font-bold mt-6 text-center">
+                <p class="text-purple-500">Current ID:</p>
+                <p class="text-black">“dev-1635829277525-2258924695353”</p>
+            </div>
+
+            <!-- Form -->
+            <form action="" class="w-full mt-8">
+
+                <!-- Normal input -->
+                <div class="">
+                    <p class="text-sm font-semibold pl-4">Set your current ID</p>
+                    <input type="text" class="mt-2 pl-6 h-50 w-full rounded-2xl border border-white bg-white input-shadow outline-none text-sm font-semibold focus:border-purple-500 placeholder-gray-400" placeholder="Your NEAR ID">
+                </div>
+                
+                <!-- Error input -->
+                <div class="">
+                    <div class="flex items-center justify-between px-4">
+                        <p class="text-sm font-semibold">Set your current ID</p>
+                        <p class="text-xs font-semibold text-red-500">Occured erorr</p>
+                    </div>
+                    <input type="text" class="mt-2 pl-6 h-50 w-full rounded-2xl border border-red-500 bg-white input-shadow outline-none text-sm font-semibold focus:border-red-500 placeholder-gray-400" placeholder="Your NEAR ID">
+                </div>
+
+                <!-- Filled input -->
+                <div class="">
+                    <div class="flex items-center justify-between px-4">
+                        <p class="text-sm font-semibold">Set your current ID</p>
+                    </div>
+                    <input type="text" class="mt-2 pl-6 h-50 w-full rounded-2xl border border-pink-500 bg-white input-shadow outline-none text-sm font-semibold focus:border-purple-500 placeholder-gray-400" placeholder="Your NEAR ID">
+                </div>
+
+                <!-- Disabled input -->
+                <div class="">
+                    <div class="flex items-center justify-between px-4">
+                        <p class="text-sm font-semibold text-gray-500">Set your current ID</p>
+                    </div>
+                    <input disabled type="text" class="mt-2 pl-6 h-50 w-full rounded-2xl border border-gray-500 text-gray-500 bg-white input-shadow outline-none text-sm font-semibold  placeholder-gray-400" placeholder="Your NEAR ID">
+                </div>
+                
+                <!-- Deploy button normal -->
+                <button class="mt-8 w-full h-64 rounded-full bg-purple-500 hover:bg-pink-500 text-lg font-bold text-white transform active:scale-95 duration-100">Deploy contract</button>
+                
+                <!-- Deploy button normal disabled -->
+                <button disabled class="mt-8 w-full h-64 rounded-full bg-pink-500 hover:bg-pink-500 text-lg font-bold text-white opacity-50 cursor-not-allowed">Deploy contract</button>
+                
+                <!-- Deploy button normal wait -->
+                <button disabled class="mt-8 w-full h-64 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-500 text-lg font-bold text-white opacity-50 cursor-wait">
+                    Deploy contract
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-spin" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                        <g opacity="">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5004 9.51121C14.0163 9.51121 13.6201 9.11505 13.6201 8.63085V5.10942C13.6201 4.62523 14.0163 4.22906 14.5004 4.22906C14.9846 4.22906 15.3808 4.62523 15.3808 5.10942V8.63085C15.3808 9.11505 14.9846 9.51121 14.5004 9.51121Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9948 10.1796C16.5755 9.93748 16.4305 9.39635 16.6726 8.97701L18.4333 5.92745C18.6754 5.50811 19.2165 5.36314 19.6359 5.60524C20.0552 5.84734 20.2002 6.38846 19.9581 6.80781L18.1974 9.85736C17.9553 10.2767 17.4141 10.4217 16.9948 10.1796Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8208 12.0056C18.5787 11.5862 18.7236 11.0451 19.143 10.803L22.1925 9.04227C22.6119 8.80017 23.153 8.94514 23.3951 9.36448C23.6372 9.78383 23.4922 10.325 23.0729 10.567L20.0233 12.3278C19.604 12.5699 19.0629 12.4249 18.8208 12.0056Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4891 14.4999C19.4891 14.0157 19.8853 13.6195 20.3695 13.6195H23.8909C24.3751 13.6195 24.7713 14.0157 24.7713 14.4999C24.7713 14.9841 24.3751 15.3803 23.8909 15.3803H20.3695C19.8853 15.3803 19.4891 14.9841 19.4891 14.4999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8208 16.9942C19.0629 16.5749 19.604 16.4299 20.0233 16.672L23.0729 18.4327C23.4922 18.6748 23.6372 19.216 23.3951 19.6353C23.153 20.0547 22.6119 20.1996 22.1925 19.9575L19.143 18.1968C18.7236 17.9547 18.5787 17.4136 18.8208 16.9942Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9948 18.8202C17.4141 18.5781 17.9553 18.7231 18.1974 19.1424L19.9581 22.192C20.2002 22.6113 20.0552 23.1525 19.6359 23.3946C19.2165 23.6367 18.6754 23.4917 18.4333 23.0723L16.6726 20.0228C16.4305 19.6034 16.5755 19.0623 16.9948 18.8202Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5004 19.4886C14.9846 19.4886 15.3808 19.8848 15.3808 20.3689V23.8904C15.3808 24.3746 14.9846 24.7707 14.5004 24.7707C14.0163 24.7707 13.6201 24.3746 13.6201 23.8904V20.3689C13.6201 19.8848 14.0163 19.4886 14.5004 19.4886Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0061 18.8202C12.4254 19.0623 12.5704 19.6034 12.3283 20.0228L10.5676 23.0723C10.3255 23.4917 9.78438 23.6367 9.36503 23.3946C8.94569 23.1525 8.80072 22.6113 9.04282 22.192L10.8035 19.1424C11.0456 18.7231 11.5868 18.5781 12.0061 18.8202Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1801 16.9942C10.4222 17.4136 10.2773 17.9547 9.85791 18.1968L6.80836 19.9575C6.38901 20.1996 5.84789 20.0547 5.60579 19.6353C5.36369 19.216 5.50866 18.6748 5.928 18.4327L8.97756 16.672C9.3969 16.4299 9.93803 16.5749 10.1801 16.9942Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.51176 14.4999C9.51176 14.9841 9.1156 15.3803 8.6314 15.3803H5.10997C4.62578 15.3803 4.22961 14.9841 4.22961 14.4999C4.22961 14.0157 4.62578 13.6195 5.10997 13.6195H8.6314C9.1156 13.6195 9.51176 14.0157 9.51176 14.4999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1801 12.0056C9.93803 12.4249 9.3969 12.5699 8.97756 12.3278L5.928 10.567C5.50866 10.325 5.36369 9.78383 5.60579 9.36448C5.84789 8.94514 6.38901 8.80017 6.80836 9.04227L9.85791 10.803C10.2773 11.0451 10.4222 11.5862 10.1801 12.0056Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0061 10.1796C11.5868 10.4217 11.0456 10.2767 10.8035 9.85736L9.04282 6.80781C8.80072 6.38846 8.94569 5.84734 9.36503 5.60524C9.78438 5.36314 10.3255 5.50811 10.5676 5.92745L12.3283 8.97701C12.5704 9.39635 12.4254 9.93748 12.0061 10.1796Z" fill="white"/>
+                        </g>
+                    </svg>
+                </button>
+                
+                <!-- Deploy button when contract deployed -->
+                <button class="mt-8 w-full h-64 rounded-full border border-red-500 bg-white hover:bg-red-500 text-lg font-bold text-red-500 hover:text-white transform active:scale-95 duration-100">Deploy contract</button>
+                
+                <!-- Deploy button when contract deployed disabled -->
+                <button disabled class="mt-8 w-full h-64 rounded-full border border-red-500 bg-red-500 hover:bg-red-500 text-lg font-bold text-white hover:text-white transform active:scale-95 duration-100 cursor-not-allowed opacity-50">Deploy contract</button>
+                
+                <!-- Deploy button when contract deployed wait -->
+                <button disabled class="mt-8 w-full h-64 flex items-center justify-center rounded-full border border-red-500 bg-red-500 hover:bg-red-500 text-lg font-bold text-whitehover:text-white transform active:scale-95 duration-100 cursor-not-allowed">
+                    Deploy contract
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-spin" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                        <g opacity="">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5004 9.51121C14.0163 9.51121 13.6201 9.11505 13.6201 8.63085V5.10942C13.6201 4.62523 14.0163 4.22906 14.5004 4.22906C14.9846 4.22906 15.3808 4.62523 15.3808 5.10942V8.63085C15.3808 9.11505 14.9846 9.51121 14.5004 9.51121Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9948 10.1796C16.5755 9.93748 16.4305 9.39635 16.6726 8.97701L18.4333 5.92745C18.6754 5.50811 19.2165 5.36314 19.6359 5.60524C20.0552 5.84734 20.2002 6.38846 19.9581 6.80781L18.1974 9.85736C17.9553 10.2767 17.4141 10.4217 16.9948 10.1796Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8208 12.0056C18.5787 11.5862 18.7236 11.0451 19.143 10.803L22.1925 9.04227C22.6119 8.80017 23.153 8.94514 23.3951 9.36448C23.6372 9.78383 23.4922 10.325 23.0729 10.567L20.0233 12.3278C19.604 12.5699 19.0629 12.4249 18.8208 12.0056Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4891 14.4999C19.4891 14.0157 19.8853 13.6195 20.3695 13.6195H23.8909C24.3751 13.6195 24.7713 14.0157 24.7713 14.4999C24.7713 14.9841 24.3751 15.3803 23.8909 15.3803H20.3695C19.8853 15.3803 19.4891 14.9841 19.4891 14.4999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8208 16.9942C19.0629 16.5749 19.604 16.4299 20.0233 16.672L23.0729 18.4327C23.4922 18.6748 23.6372 19.216 23.3951 19.6353C23.153 20.0547 22.6119 20.1996 22.1925 19.9575L19.143 18.1968C18.7236 17.9547 18.5787 17.4136 18.8208 16.9942Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9948 18.8202C17.4141 18.5781 17.9553 18.7231 18.1974 19.1424L19.9581 22.192C20.2002 22.6113 20.0552 23.1525 19.6359 23.3946C19.2165 23.6367 18.6754 23.4917 18.4333 23.0723L16.6726 20.0228C16.4305 19.6034 16.5755 19.0623 16.9948 18.8202Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5004 19.4886C14.9846 19.4886 15.3808 19.8848 15.3808 20.3689V23.8904C15.3808 24.3746 14.9846 24.7707 14.5004 24.7707C14.0163 24.7707 13.6201 24.3746 13.6201 23.8904V20.3689C13.6201 19.8848 14.0163 19.4886 14.5004 19.4886Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0061 18.8202C12.4254 19.0623 12.5704 19.6034 12.3283 20.0228L10.5676 23.0723C10.3255 23.4917 9.78438 23.6367 9.36503 23.3946C8.94569 23.1525 8.80072 22.6113 9.04282 22.192L10.8035 19.1424C11.0456 18.7231 11.5868 18.5781 12.0061 18.8202Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1801 16.9942C10.4222 17.4136 10.2773 17.9547 9.85791 18.1968L6.80836 19.9575C6.38901 20.1996 5.84789 20.0547 5.60579 19.6353C5.36369 19.216 5.50866 18.6748 5.928 18.4327L8.97756 16.672C9.3969 16.4299 9.93803 16.5749 10.1801 16.9942Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.51176 14.4999C9.51176 14.9841 9.1156 15.3803 8.6314 15.3803H5.10997C4.62578 15.3803 4.22961 14.9841 4.22961 14.4999C4.22961 14.0157 4.62578 13.6195 5.10997 13.6195H8.6314C9.1156 13.6195 9.51176 14.0157 9.51176 14.4999Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1801 12.0056C9.93803 12.4249 9.3969 12.5699 8.97756 12.3278L5.928 10.567C5.50866 10.325 5.36369 9.78383 5.60579 9.36448C5.84789 8.94514 6.38901 8.80017 6.80836 9.04227L9.85791 10.803C10.2773 11.0451 10.4222 11.5862 10.1801 12.0056Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0061 10.1796C11.5868 10.4217 11.0456 10.2767 10.8035 9.85736L9.04282 6.80781C8.80072 6.38846 8.94569 5.84734 9.36503 5.60524C9.78438 5.36314 10.3255 5.50811 10.5676 5.92745L12.3283 8.97701C12.5704 9.39635 12.4254 9.93748 12.0061 10.1796Z" fill="white"/>
+                        </g>
+                    </svg>
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Popup menu -->
+    <div class="fixed z-20 bottom-0 md:right-60 w-full md:w-376 bg-purple-500 hover:bg-pink-500 text-purple-500 hover:text-pink-500 rounded-t-xl shadow-xl">
+
+        <!-- Close menu button -->
+        <button class="absolute top-4 right-4 text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M11.6844 2.93436C11.8552 2.7635 11.8552 2.4865 11.6844 2.31564C11.5135 2.14479 11.2365 2.14479 11.0656 2.31564L7 6.38128L2.93436 2.31564C2.76351 2.14479 2.4865 2.14479 2.31564 2.31564C2.14479 2.4865 2.14479 2.7635 2.31564 2.93436L6.38128 7L2.31564 11.0656C2.14479 11.2365 2.14479 11.5135 2.31564 11.6844C2.4865 11.8552 2.7635 11.8552 2.93436 11.6844L7 7.61872L11.0656 11.6844C11.2365 11.8552 11.5135 11.8552 11.6844 11.6844C11.8552 11.5135 11.8552 11.2365 11.6844 11.0656L7.61872 7L11.6844 2.93436Z" fill="currentColor"/>
+            </svg>
+        </button>
+
+        <!-- Open popup form -->
+        <div class="realtive flex justify-center">
+            <div class="absolute z-20 bg-white rounded-b-full opacity-50 pulsing"> </div>
+            <button class="relative z-30 bg-white w-61 h-30 rounded-b-full flex items-center justify-center box-content">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-2" width="21" height="13" viewBox="0 0 21 13" fill="none">
+                    <path d="M18.3659 12.5099L20.1453 10.7299L10.1924 0.839905L0.239445 10.7399L2.01891 12.5099L10.1924 4.3799L18.3659 12.5099Z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Menu content -->
+        <div class="flex items-center justify-center space-x-5 mt-6 mb-7">
+
+            <!-- If contract does not deployed -->
+            <div class="relative flex items-center justify-center">
+                <div class="absolute z-10 w-64 h-64 bg-white opacity-50 rounded-full"></div>
+                <div class="relative z-20 flex items-center justify-center bg-white min-w-50 w-50 min-h-50 h-50 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                        <path d="M18.1529 1.58732L13.6085 8.20587C13.2943 8.6566 13.8986 9.20222 14.3337 8.82266L18.8056 5.00335C18.9264 4.90846 19.0957 4.97963 19.0957 5.14568V17.0781C19.0957 17.2441 18.8781 17.3153 18.7814 17.1967L5.24485 1.30266C4.80975 0.780763 4.18127 0.496094 3.48027 0.496094H2.99682C1.73985 0.496094 0.700439 1.51616 0.700439 2.77344V19.5689C0.700439 20.8262 1.73985 21.8463 3.02099 21.8463C3.81868 21.8463 4.56803 21.443 5.00313 20.755L9.54755 14.1365C9.86179 13.6858 9.25748 13.1401 8.82237 13.5197L4.35048 17.3153C4.22961 17.4102 4.06041 17.339 4.06041 17.1729V5.2643C4.06041 5.09824 4.27796 5.02707 4.37465 5.14568L17.9112 21.0397C18.3463 21.5616 18.999 21.8463 19.6758 21.8463H20.1592C21.4404 21.8463 22.4798 20.8262 22.4798 19.5689V2.77344C22.4556 1.51616 21.4162 0.496094 20.1351 0.496094C19.3374 0.496094 18.588 0.899375 18.1529 1.58732Z" fill="black"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="text-white">
+                <p class="text-base font-bold">
+                    Try frontend with your <br> deployed contract ID
+                </p>
+            </div>
+
+            <!-- If contract deployed -->
+            <!-- <div class="text-center text-white">
+                <p class="text-base font-bold">Current ID:</p>
+                <p class="text-base font-bold">“dev-1635829277525-2258924695353”</p>
+            </div> -->
+        </div>
+
+    </div>
+
+    <!-- Header -->
+    <header>
         <!-- Navigation-->
         <nav class="my-12 px-24 hidden lg:flex">
             <!-- Logo -->
@@ -40,7 +236,7 @@
                 </li>
             </ul>
             <!-- Login button -->
-            <a href="#" class="block px-8 py-1 shadow-md hover:shadow-sm rounded-full flex text-lg font-semibold text-blue-900 ml-auto items-center bg-white">
+            <a href="#" class="px-8 py-1 shadow-md hover:shadow-sm rounded-full flex text-lg font-semibold text-blue-900 ml-auto items-center bg-white">
                 Login with NEAR
                 <img src="./img/near-logo.png" alt="near-logo">
             </a>
@@ -98,6 +294,7 @@
             </div>
         </div>
     </header>
+
     <!-- Features -->
     <section class="mt-32 mx-12">
         <div class="text-center">
@@ -215,6 +412,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
     <footer class="mt-24 px-12 lg:px-16 xl:px-48 pb-24 border-t-2 border-gray-400">
         <!-- Footer title -->
         <div class="block lg:flex mt-16 lg:my-24">

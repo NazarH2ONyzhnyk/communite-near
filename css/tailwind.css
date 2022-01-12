@@ -12,4 +12,40 @@
         background: url("../img/dashboard-bg-gradient.png") no-repeat center; 
         background-size: cover;
     }
+    .input-shadow {
+        box-shadow: 3px 4px 30px 3px rgba(0, 0, 0, 0.1);
+    }
+    .pulsing {
+        animation: pulsing 1s infinite;
+        animation-duration: 1s;
+    }
+    .pulsing-border {
+        animation: pulsing-border 1s infinite;
+        animation-duration: 1s;
+    }
+    @keyframes pulsing {
+        from{
+            width: 0px;
+            height: 0px;
+        }
+        50% {
+            width: 74px;
+            height: 37px;
+        }
+        to {
+            width: 0px;
+            height: 0px;
+        }
+    }
+    @keyframes pulsing-border {
+        from{
+            border-width: 0;
+        }
+        50% {
+            border-width: 8px;
+        }
+        to {
+            border-width: 0;
+        }
+    }
 }
